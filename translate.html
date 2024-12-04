@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EuronaDictionary - Translate</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>EuronaDictionary</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="translate.html" class="active">Translate (Beta)</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="translate">
+            <h2>Translate (Beta)</h2>
+            <p>Enter a word in English to see its Eurona equivalent:</p>
+            <input type="text" id="translate-input" placeholder="Enter a word...">
+            <button onclick="translateWord()">Translate</button>
+            <p id="translation-result"></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 EuronaDictionary. All Rights Reserved.</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
